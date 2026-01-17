@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 | Number System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="lessons.html" class="active">Lessons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-page">
+        <div style="text-align: left; margin-bottom: 20px;">
+            <a href="lessons.html" style="text-decoration: none; color: #8d6e3e; font-weight: bold;">
+                <i class="fa-solid fa-arrow-left"></i> Back to Lessons
+            </a>
+        </div>
+
+        <h2 class="section-title">Lesson 4: Number System</h2>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">1. Fundamentals</div>
+            <div class="box-content">
+                <p>A number system is a structured method for representing quantities using specific digits and mathematical notation.</p>
+                <ul>
+                    <li><strong>Primary Role:</strong> It provides a bridge between human-readable information and machine-processable data.</li>
+                    <li><strong>Function:</strong> Makes it easier to compare values and associate quantities with objects for computing efficiency.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">2. Bases</div>
+            <div class="box-content">
+                <p>There are four primary number systems used in modern technology:</p>
+                [attachment_0](attachment)
+                <ul>
+                    <li><strong>Decimal (Base 10):</strong> The human standard (0-9); used for high-precision scientific and financial calculations.</li>
+                    <li><strong>Binary (Base 2):</strong> The foundation of digital electronics (0 and 1); represents True/False states and is vital for cryptography.</li>
+                    <li><strong>Octal (Base 8):</strong> Uses digits 0–7; primarily used in UNIX file permissions and UTF-8 encoding.</li>
+                    <li><strong>Hexadecimal (Base 16):</strong> Uses digits 0–9 and letters A–F; a compact system for HTML color codes and memory addressing.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">3. Synthesis (To Decimal)</div>
+            <div class="box-content">
+                <p>This explains the process of converting any base back into Decimal (Base 10) using positional notation.</p>
+                <div class="math-box" style="background: #f9f9f9; padding: 15px; border-left: 4px solid #8d6e3e; font-family: monospace;">
+                    <p><strong>Binary to Decimal:</strong> Multiply digits by powers of 2 (2^0, 2^1, 2^2, ...)</p>
+                    <p><strong>Octal to Decimal:</strong> Multiply digits by powers of 8 (8^0, 8^1, 8^2, ...)</p>
+                    <p><strong>Hexadecimal to Decimal:</strong> Convert letters to numbers (A=10 to F=15) then multiply by powers of 16 (16^0, 16^1, 16^2, ...)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">4. Decomposition (From Decimal)</div>
+            <div class="box-content">
+                <p>Translating Decimal (Base 10) into other bases using two main methods:</p>
+                
+                <ul>
+                    <li><strong>Division Method:</strong> Repeatedly divide the decimal number by the target base (2, 8, or 16) and record the remainders in reverse order.</li>
+                    <li><strong>Subtraction Method:</strong> (For Binary) Subtract the largest possible power of 2 from the decimal value.</li>
+                    <li><strong>Shortcuts:</strong> Convert decimal values to binary first, then group them into sets of three (for Octal) or four (for Hexadecimal).</li>
+                </ul>
+            </div>
+        </div>
+
+        <p style="font-size: 0.8rem; color: #777; margin-top: 30px; text-align: left;">
+             <em>References: COMP001 Module 04: Number System Conversion; Rules of Binary Arithmetic and Signed Numbers.</em>
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CRYSTAL N PESIGAN PORTFOLIO</p>
+    </footer>
+</body>
+</html>

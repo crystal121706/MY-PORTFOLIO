@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5 | Digital Logic System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="lessons.html" class="active">Lessons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-page">
+        <div style="text-align: left; margin-bottom: 20px;">
+            <a href="lessons.html" style="text-decoration: none; color: #8d6e3e; font-weight: bold;">
+                <i class="fa-solid fa-arrow-left"></i> Back to Lessons
+            </a>
+        </div>
+
+        <h2 class="section-title">Lesson 5: Digital Logic System</h2>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">1. Logic</div>
+            <div class="box-content">
+                <p>Computing is a formal science built on mathematically definable logic systems. Digital systems function using two distinct binary states:</p>
+                <ul>
+                    <li><strong>0 (False/Off):</strong> No electrical signal.</li>
+                    <li><strong>1 (True/On):</strong> With electrical signal.</li>
+                    <li><strong>Machine Decision:</strong> By assigning values to these inputs, the system determines "True versus False" outcomes, serving as the basis for all quantitative processing.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">2. Gates</div>
+            <div class="box-content">
+                <p>The Arithmetic Logic Unit (ALU) uses specialized hardware components called <strong>gates</strong> to perform operations.</p>
+                [attachment_0](attachment)
+                <ul>
+                    <li><strong>AND Gate:</strong> Outputs True only if <strong>all</strong> inputs are True. (Returns 1 if both A and B are 1).</li>
+                    <li><strong>OR Gate:</strong> Outputs True if <strong>at least one</strong> input is True. (Returns False only if both are False).</li>
+                    <li><strong>NOT Gate:</strong> Also known as an Inverter; it flips the input (True becomes False and vice versa). This is vital for implementing 1's complement.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">3. Execution</div>
+            <div class="box-content">
+                <p>These logical operations are integrated into the CPU's Machine Cycle for high-speed actions.</p>
+                <ul>
+                    <li><strong>The Execute Phase:</strong> During this phase, the CPU performs simple actions to process complex instructions.</li>
+                    <li><strong>Hardwired Circuitry:</strong> Because these operations are hardwired, they allow the computer to evaluate conditions and route data almost instantaneously.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lesson-detail-box">
+            <div class="box-header">4. Testing</div>
+            <div class="box-content">
+                <p>The logic unit within the ALU is responsible for critical hardware-level tests.</p>
+                <ul>
+                    <li><strong>Numerical Checks:</strong> Determining if a value is negative or comparing two values to see if they are equal.</li>
+                    <li><strong>Software Foundation:</strong> These tests are the "building blocks" that allow software to use conditional statements (like <em>if-else</em>) to control the flow of a program.</li>
+                </ul>
+            </div>
+        </div>
+
+        <p style="font-size: 0.8rem; color: #777; margin-top: 30px; text-align: left;">
+          <em>References: COMP001 Lecture: Arithmetic Logic Unit (ALU) Functions; Logic Circuit Implementation using NOT gates.</em>
+        </p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CRYSTAL N. PESIGAN PORTFOLIO</p>
+    </footer>
+</body>
+</html>
